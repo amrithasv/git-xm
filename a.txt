@@ -1,0 +1,46 @@
+2.
+git checkout -b feature-branch
+code
+add .
+ commit
+ push
+
+ git checkout -b master
+ codeadd .
+ commit
+ push
+
+ 3.
+ git checkout -b feature-branchcode
+ git add .
+ commit
+git fetch origin
+git rebase origin/main
+git push origin feature-branch
+
+4.
+code and commit
+git log
+git tag v1.0 <id>
+git tag 
+git push origin v1.0
+
+5.
+git checkout -b source-branch
+code and add commit
+push
+git status
+git log --oneline
+copy hash and keep
+git checkout -m main
+git cherry-pick<hash>
+
+6.
+code and commit push
+git show <hash>
+git log --author=amrithasv --after=2023-01-01 --before=2023-12-31
+git log -n5
+git revert<commitid>
+
+
+
